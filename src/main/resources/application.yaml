@@ -2,8 +2,8 @@ spring:
   application:
     name: config-Server
 
-  profiles:
-    active: native   # ✅ VERY IMPORTANT
+#  profiles:
+#    active: native   # ✅ VERY IMPORTANT
 
   cloud:
     config:
