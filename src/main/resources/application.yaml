@@ -9,10 +9,13 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/divyanjalee200178/Library-System-Configuration.git
+          uri: https://github.com/divyanjalee200178/Library-System-Configuration-Main.git
           search-paths: platform,services
         native:
-          search-locations: classpath:/configurations
+          search-locations:
+            - classpath:/configurations
+            - classpath:/configurations/platform
+            - classpath:/configurations/services
 
 server:
   port: 9000
